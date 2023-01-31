@@ -1,0 +1,308 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition-timing-function: ease-in-out;
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.004) !important;
+    font-smooth: auto;
+    -webkit-text-stroke: 0px;
+    font-family: sans-serif;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	transition-timing-function: ease-in-out;
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.004) !important;
+    font-smooth: auto;
+    -webkit-text-stroke: 0px;
+    font-family: sans-serif;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+.imp{
+	color: red;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	pointer-events: none;
+/*	vertical-align: middle;*/
+}
+header{
+/*		border: 1px solid black;*/
+	width: 100%;
+	background: #000;
+	padding: 5px 0;
+}
+header h1{
+/*	border: 1px solid #fff;*/
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	padding: 0;
+}
+header h1 a{
+/*	border: 1px solid #fff;*/
+	text-decoration: none;
+	color: rgba(255, 117, 24, 0.9);
+	display: block;
+}
+header h2{
+/*	border: 1px solid #fff;*/
+	text-align: center;
+	padding: 5px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	color: #aaa;
+	padding: 5px 0px;
+	font-weight: normal;
+}
+header h2 a{
+	font-size: 16px;
+	color: #eee;
+	text-decoration: none;
+}
+header h2 a:hover{
+	color: red;
+	text-decoration: underline;
+}
+header h2 a:active{
+	scale: 0.95;
+}
+section{
+/*	border: 1px solid blue;*/
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 0px 0px;
+	background: #333;
+	overflow-y: auto;
+}
+article{
+	border: 2px solid red;
+	margin: 0;
+	padding: 10px 20px;
+	margin: auto;
+	width: 80%;
+	height: 100%;
+	background: #eee;
+	overflow: auto;
+}
+article p,h3{
+/*	border: 1px solid black;*/
+	display: inline-block;
+	padding: 5px;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+}
+article h3.syntax{
+/*	border: 1px solid black;*/
+	font-size: 20px;
+	margin: 1rem 0;
+}
+.heading h3{
+/*	border: 1px solid #000;*/
+	padding: 10px 0;
+	color: #000;
+	cursor: pointer;
+	font-weight: 600;
+	line-height: 1.2px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.heading h3:hover{
+	color: indianred;
+	text-decoration: underline;
+}
+.heading-details .heading h3:active{
+	scale: 0.99;
+}
+article p.title-tag{
+	width: 90%;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+}
+article p.meta-syntax{
+/*	border: 1px solid black;*/
+	display: block;
+	color: #000;
+	font-size: 20px;
+/*	margin: 10px 0;*/
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+details p.meta-details{
+/*	border: 1px solid black;*/
+	line-height: 1.4rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+	padding: 0;
+	margin: 5px 0;
+	text-align: justify;
+}
+details p.meta-details a{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: darkblue;
+	font-weight: 600;
+}
+details p.meta-details a.btn{
+/*	border: 1px solid black;*/
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: darkblue;
+	font-weight: 600;
+}
+details p.meta-details a:hover{
+	color: indianred;
+	text-decoration: underline;
+}
+section article details{
+/*	border: 1px solid black;*/
+	padding: 5px;
+	width: 90%;
+	color: #000;
+	text-align: justify;
+}
+details summary{
+/*	border: 1px solid black;*/
+	display: inline-block;
+	color: darkblue;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+/*	padding: 2px;*/
+}
+details summary:active{
+	scale: 0.99;
+/*	font-size: 15.5px;*/
+}
+details .summary:hover{
+	cursor: pointer;
+	color: indianred;
+	text-decoration: underline;
+}
+details .summary:hover i{
+	color: firebrick;
+	cursor: pointer;
+}
+footer{
+/*	border: 1px solid black;*/
+	background: #000;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer small{
+/*		border: 1px solid #fff;*/
+	font-size: 12px;
+	padding: 10px;
+	color: #aaa;
+	font-weight: lighter;
+	font-family: arial, sans-serif;
+	font-weight: 300;
+}
+/*===============================================*/
+/*=============== Media Query ===================*/
+/*===============================================*/
+@media only screen and (max-width: 768px){
+	header h1{
+	/*	border: 1px solid #fff;*/
+		font-size: 25px;
+	}
+	header h2{
+	/*	border: 1px solid #fff;*/
+		font-size: 15px;
+	}
+	header h2 a{
+		font-size: 14px;
+	}
+	article{
+/*		border: 2px solid red;*/
+		width: 100%;
+		padding: 0px 10px;
+	}
+	article h3.syntax{
+/*		border: 1px solid black;*/
+		font-size: 18px;
+	}
+	section article details{
+/*		border: 1px solid black;*/
+		width: 100%;
+		padding: auto 10px;
+	}
+	.heading-details{
+/*		border: 1px solid black;*/
+		margin-top: 1rem;
+	}
+	.heading h3{
+	/*	border: 1px solid #000;*/
+		font-size: 18px;
+	}
+	article p.meta-details{
+/*		border: 1px solid black;*/
+		font-size: 15px;
+		
+	}
+	article p.meta-syntax{
+/*		border: 1px solid black;*/
+		font-size: 18px;
+	}
+	details .summary{
+	/*	border: 1px solid black;*/
+		font-size: 15px;
+	}
+	details p.meta-details a{
+/*		border: 1px solid black;*/
+		font-size: 15px;
+	}
+}
+/*===============================================*/
+/*=============== Media Query ===================*/
+/*===============================================*/
+@media only screen and (max-width: 480px){
+	section article details{
+/*		border: 1px solid black;*/
+		width: 100%;
+		margin: auto;
+		padding: auto 10px;
+	}
+	.heading h3{
+	/*	border: 1px solid #000;*/
+		font-size: 16px;
+	}
+	article p.meta-details{
+/*		border: 1px solid black;*/
+		font-size: 14px;
+	}
+	article p.meta-syntax{
+/*		border: 1px solid black;*/
+		font-size: 16px;
+		font-weight: 500;
+	}
+	details .summary{
+/*		border: 1px solid black;*/
+		font-size: 14px;
+	}
+	details p.meta-details a{
+/*		border: 1px solid black;*/
+		font-size: 14px;
+	}	
+}
