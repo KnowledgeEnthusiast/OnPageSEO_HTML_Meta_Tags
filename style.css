@@ -278,6 +278,9 @@ footer small{
 /*=============== Media Query ===================*/
 /*===============================================*/
 @media only screen and (max-width: 480px){
+	.imp{
+		font-size: 14px;
+	}
 	section article details{
 /*		border: 1px solid black;*/
 		width: 100%;
@@ -288,6 +291,12 @@ footer small{
 	/*	border: 1px solid #000;*/
 		font-size: 16px;
 	}
+	.heading h3.h3-01{
+		display: block;
+	}
+	.heading h3.h3-02{
+		display: none;
+	}
 	article p.meta-details{
 /*		border: 1px solid black;*/
 		font-size: 14px;
@@ -296,6 +305,49 @@ footer small{
 /*		border: 1px solid black;*/
 		font-size: 16px;
 		font-weight: 500;
+	}
+	details .summary{
+/*		border: 1px solid black;*/
+		font-size: 14px;
+	}
+	details p.meta-details a{
+/*		border: 1px solid black;*/
+		font-size: 14px;
+	}	
+}
+/*===============================================*/
+/*=============== Media Query ===================*/
+/*===============================================*/
+@media only screen and (max-width: 380px){
+	section article details{
+/*		border: 1px solid black;*/
+		width: 100%;
+		margin: auto;
+		padding: auto 5px;
+		text-align: left;
+	}
+	.heading h3{
+	/*	border: 1px solid #000;*/
+		font-size: 15.5px;
+		display: inline-block;
+	}
+	.heading h3.h3-01{
+		display: none;
+	}
+	.heading h3.h3-02{
+		display: block;
+	}
+	article p.meta-details{
+/*		border: 1px solid black;*/
+		font-size: 14px;
+		text-align: left;
+		padding: 0;
+	}
+	article p.meta-syntax{
+/*		border: 1px solid black;*/
+		font-size: 16px;
+		font-weight: 500;
+
 	}
 	details .summary{
 /*		border: 1px solid black;*/
