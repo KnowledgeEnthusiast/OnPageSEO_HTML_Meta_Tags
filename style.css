@@ -335,6 +335,47 @@ footer small{
 /*=============== Media Query ===================*/
 /*===============================================*/
 @media only screen and (max-width: 380px){
+	header{
+/*		border: 1px solid black;*/
+	width: 100%;
+	background: #000;
+	padding: 5px 10px;
+	}
+	header h1{
+	/*	border: 1px solid #fff;*/
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		font-size: 24px;
+		padding: 0;
+	}
+	header h1 a{
+	/*	border: 1px solid #fff;*/
+		text-decoration: none;
+		color: rgba(255, 117, 24, 0.9);
+		display: block;
+	}
+	header h2{
+	/*	border: 1px solid #fff;*/
+		text-align: center;
+		padding: 5px 0;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		color: #aaa;
+		padding: 5px 0px;
+		font-weight: normal;
+	}
+	header h2 a{
+		font-size: 14px;
+		color: #eee;
+		text-decoration: none;
+	}
+	header h2 a:hover{
+		color: red;
+		text-decoration: underline;
+	}
+	header h2 a:active{
+		scale: 0.95;
+	}
 	section article details{
 /*		border: 1px solid black;*/
 		width: 100%;
