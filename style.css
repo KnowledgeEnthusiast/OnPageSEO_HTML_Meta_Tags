@@ -218,6 +218,7 @@ footer small{
 	font-weight: lighter;
 	font-family: arial, sans-serif;
 	font-weight: 300;
+	text-align: center;
 }
 /*===============================================*/
 /*=============== Media Query ===================*/
@@ -256,6 +257,12 @@ footer small{
 	/*	border: 1px solid #000;*/
 		font-size: 18px;
 	}
+	.heading h3.h3-01{
+		display: block;
+	}
+	.heading h3.h3-02{
+		display: none;
+	}
 	article p.meta-details{
 /*		border: 1px solid black;*/
 		font-size: 15px;
@@ -287,15 +294,18 @@ footer small{
 		margin: auto;
 		padding: auto 10px;
 	}
+	section article details summary{
+/*		border: 1px solid black;*/
+	}
 	.heading h3{
 	/*	border: 1px solid #000;*/
 		font-size: 16px;
 	}
 	.heading h3.h3-01{
-		display: block;
+		display: none;
 	}
 	.heading h3.h3-02{
-		display: none;
+		display: block;
 	}
 	article p.meta-details{
 /*		border: 1px solid black;*/
