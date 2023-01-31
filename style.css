@@ -127,6 +127,12 @@ article h3.syntax{
 .heading-details .heading h3:active{
 	scale: 0.99;
 }
+.heading h3.h3-01{
+	display: block;
+}
+.heading h3.h3-02{
+	display: none;
+}
 article p.title-tag{
 	width: 90%;
 	text-align: justify;
